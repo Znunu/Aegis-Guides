@@ -11,7 +11,8 @@ This guide walks you through setting up Aegis in Visual Studio on Windows.
 7. *Zoom*
 
 ## Clone aegis
-To clone the aegis repository (download it down to your PC) you'll need either Git or GitHub Desktop
+To clone the aegis repository (download it down to your PC) you'll need either Git or GitHub Desktop.
+They can both be used to clone repositories with the former being command line and the latter offering a GUI.
 
 ### Using Git
 
@@ -36,8 +37,8 @@ Keep in mind where the repository was cloned, since you'll need to reference it 
 
 ## Install vcpkg
 Follow [this](https://github.com/microsoft/vcpkg#quick-start-windows) guide to install vcpkg.
-The important bits are `vcpkg\bootstrap-vcpkg.bat` and `vcpkg\vcpkg integrate install`.
-If you in the previous step used GitHub dekstop, ignore `git clone https://github.com/microsoft/vcpkg` and instead clone it like you cloned ageis.
+If you in the previous step used GitHub desktop, ignore `git clone https://github.com/microsoft/vcpkg` and the Git prerequisite and instead clone it like you cloned ageis.
+After that, the important bits are `vcpkg\bootstrap-vcpkg.bat` and `vcpkg\vcpkg integrate install`.
 
 ## Get openssl and zlib
 Using our newly created `vcpkg.exe` get the openssl and zlib packages with `vcpkg install openssl` and `vcpkg install zlib`.
