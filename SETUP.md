@@ -36,7 +36,7 @@ Keep in mind where the repository was cloned, since you'll need to reference it 
 
 ## Install vcpkg
 Follow [this](https://github.com/microsoft/vcpkg#quick-start-windows) guide to install vcpkg.
-The important bits are `git clone https://github.com/microsoft/vcpkg`, `vcpkg\bootstrap-vcpkg.bat` and `vcpkg\vcpkg integrate install`.
+The important bits are `vcpkg\bootstrap-vcpkg.bat` and `vcpkg\vcpkg integrate install`.
 If you in the previous step used GitHub dekstop, ignore `git clone https://github.com/microsoft/vcpkg` and instead clone it like you cloned ageis.
 
 ## Get openssl and zlib
